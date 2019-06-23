@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :students
   root to: 'pages#index'
   resources :pages
   mount Vueonrails::Engine, at: 'vue'
