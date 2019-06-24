@@ -5,5 +5,12 @@
   <%= @student.name %>
 </p>
 
+<% @student.subjects.each_with_index do |subject, index|%>
+  <p>
+    <strong>Subject:</strong>
+    <%= subject.name %>
+  </p>
+<% end %>
+
 <%= link_to 'Edit', edit_student_path(@student) %> |
 <%= link_to 'Back', students_path %>

@@ -33,6 +33,7 @@
   "dependencies": {
     "@rails/webpacker": "^4.0.0-rc.8",
     "vue": "^2.6.10",
+    "vue-form-for": "file:/Users/ytbryan/Desktop/vue-form-for",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10"
   },
